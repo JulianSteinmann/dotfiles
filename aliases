@@ -5,3 +5,15 @@ alias speedtest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/download
 
 # Quickly serve the current directory as HTTP
 alias serve='ruby -run -e httpd . -p 8000'  # Or python -m SimpleHTTPServer :)
+
+alias shortcuts='cd; atom .aliases'
+alias update-shortcuts='source ~/.aliases'
+alias teatime='sleep 90; terminal-notifier -message "Tee is ready" -title "Teatime!"'
+alias jdcode='cd ~/code/JacksonDaly'
+alias mycode='cd ~/code/JulianSteinmann'
+alias dotfiles='cd ~/code/JulianSteinmann/dotfiles'
+alias code='cd ~/code'
+
+
+alias flushdns='dscacheutil -flushcache;sudo killall -HUP mDNSResponder;say flushed'
+alias hosts='sudo nano /private/etc/hosts'
